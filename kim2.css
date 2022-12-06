@@ -1,0 +1,146 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0%;
+ 
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
+}
+
+.header_container{
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.clearfix{
+    overflow: auto;
+}
+
+/* header section */
+nav{
+    padding-top: 30px;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+nav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 0 20px 0 20px;
+}
+
+/* Hero Section */
+
+.hero_expanded{
+    background: url(/image/Hero\ background.png) no-repeat top /cover ;
+    height: 874px;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+
+}
+
+.site_name_tag{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 510px;
+}
+
+.site_name_tag h1{
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.site_name_tag h1 span:before{
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+}
+.site_name_tag h1 span{
+    display: block; 
+    position: relative;
+}
+
+.site_name_tag a{
+    background: #00FF00;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 50px;
+}
+
+.site_name_tag a:hover {
+    color: black;
+    background-color: rgb(247, 0, 41);
+
+}
+
+.About_us{
+    height: auto;
+    width: auto;
+    margin-top: 950px;
+    padding: 0 auto ;
+}
+.About_us .midtxt {
+    margin: 78px auto;
+    text-align: center;
+    color: #000;
+    background: #EEB773;
+    padding: 30px 150px;
+}
+.midtxt h1 {
+    text-transform: uppercase;
+}
+.midtxt p {
+    font-size: 20px;
+}
+.footer_content{
+    background:  black;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer_content h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0;
+}
+.footer_content p{
+    margin: 50px auto;
+    font-size: 20px;
+    line-height: 30px;
+}
